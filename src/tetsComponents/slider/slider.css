@@ -1,0 +1,94 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+.wrapperSlider{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.arrow{
+    opacity: 0.8;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(211, 151, 151);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.arrow.arrowLeft{
+    left: 10px;
+}
+
+.arrow.arrowRight{
+    right: 10px;
+}
+
+.slide{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+   align-items: center; 
+ 
+  /*  transform: translateX(-0vw); */
+    transition: all 2s ease;
+
+}
+
+.imgContainer{
+     flex: 1;
+     height: 100%;
+     
+     }
+
+.title{
+    font-size: 50px;
+
+    
+}
+
+.desc{
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 30px;
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    background-color: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+img{
+    height: 80%;
+}
+
+.infoContainer{
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}

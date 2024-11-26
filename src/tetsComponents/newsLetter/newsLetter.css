@@ -1,0 +1,54 @@
+.newsLetterContainer{
+    height: 60vh;
+    width: 100%;
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.emailWrapper{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.emailTitle{
+    font-size: 60px;
+}
+
+.emailDesc{
+    font-size: 30px;
+    margin: 20px;
+}
+
+.emailContainer{
+    width: 60%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    
+   
+}
+
+.emailInput{
+    flex: 8;
+   padding-left: 10px;
+}
+
+.emailButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    border: none;
+    color: white;
+    background-color: teal;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.05);
+    }
+}

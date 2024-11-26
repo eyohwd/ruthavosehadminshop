@@ -1,3 +1,21 @@
+import shoe1 from "./assets/img1.jpg"
+import shoe2 from "./assets/img2.jpg"
+import shoe3 from "./assets/img3.jpg"
+import product4 from "./assets/pix8.jpg"
+import product5 from "./assets/pix9.jpg"
+import product6 from "./assets/pix10.jpg"
+import product7 from "./assets/pix11.jpg"
+import product8 from "./assets/pix12.jpg"
+import product9 from "./assets/pix13.jpg"
+import product10 from "./assets/pix14.jpg"
+import product11 from "./assets/pix15.jpg"
+import product12 from "./assets/pix16.jpg"
+import product13 from "./assets/pix7.jpg"
+
+
+
+
+
 export const userData = [
     {
       name: "Jan",
@@ -249,3 +267,109 @@ export const userData = [
       price: "$120.00",
     },
   ];
+
+
+  export const slideData = [
+    {id: 1,
+      img: shoe1,
+      title: "LOFFAS SHOE",
+      desc: "Best for your coorporate outing. Top quality leather made from Italy",
+    },
+
+    {id: 2,
+      img: shoe2,
+      title: "NIKE CANVAS",
+      desc: "Best for your coorporate outing. Top quality leather made from Italy",
+    }, 
+
+    {id: 3,
+      img: shoe3,
+      title: "SOLID SHOE",
+      desc: "Best for your coorporate outing. Top quality leather made from Italy",
+    }
+  ];
+
+
+  export const categories = [
+    {id: 1,
+      img: product4,
+      title: "SHIRT",
+      
+    },
+
+    {id: 2,
+      img: product5,
+      title: "TV",
+      
+    }, 
+
+    {id: 3,
+      img: product6,
+      title: "SOUND SYSTEM",
+      
+    }
+  ]
+
+
+  export const products = [
+    {id: 1,
+      img: product10,
+      
+      
+    },
+
+    {id: 2,
+      img: product11,
+      
+      
+    }, 
+
+    {id: 3,
+      img: product12,
+    
+      
+    },
+
+    {id: 4,
+      img: product7,
+    
+      
+    },
+
+    {id: 5,
+      img: product8,
+    
+      
+    },
+
+    {id: 6,
+      img: product9,
+    
+      
+    },
+
+    {id: 7,
+      img: product4,
+    
+      
+    },
+
+    {id: 8,
+      img: product5,
+    
+      
+    },
+
+    {id: 9,
+      img: product6,
+    
+      
+    },
+     
+    {id: 10,
+      img: product13,
+    
+      
+    },
+
+  ]
